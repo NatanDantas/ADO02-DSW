@@ -1,0 +1,38 @@
+{
+    "nome": "José Natan Claudino Dantas",
+    "imagem": "url-imagem",
+    "email": "natancdantas@gmail.com",
+    "telefone": "(11) 99999-1234",
+    "dataNascimento": "2000-08-14",
+    "experienciasProfissionais": [
+        {
+            "empresa": "Colégio Magno",
+            "cargo": "Jovem Aprendiz",
+            "dataInicio": "2019-05-01",
+            "dataTermino": "2021-05-01"
+        },
+        {
+            "empresa": "Claro Brasil",
+            "cargo": "Estagiario",
+            "dataInicio": "2022-04-20",
+            "dataTermino": "2023-04-11"
+        }
+    ],
+    "formacaoAcademica": [
+        {
+            "curso": "Programação em Java",
+            "instituicao": "SENAI",
+            "dataConclusao": "2018-10-20"
+        },
+        {
+            "curso": "Inglês",
+            "instituicao": "Instituto Nossa Senhora de Fátima",
+            "dataConclusao": "2020-10-20"
+        }
+    ],
+    "conhecimentos": [
+        "Mysql",
+        "Banco de Dados",
+        "Java"
+    ]
+}
