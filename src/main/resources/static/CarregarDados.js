@@ -1,4 +1,4 @@
-const url = "caminho/para/dados.json";
+const url = "http://localhost:8080/Dados.json";
 
 fetch(url)
   .then(response => response.json())

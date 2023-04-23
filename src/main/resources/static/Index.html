@@ -17,13 +17,26 @@
         <p>Data nascimento: <span id="dataNascimento"></span></p>
         <p>Conhecimentos:</p>
         <ul id="conhecimentos"></ul>
-        <p>Experiências Profissionais:</p>
-        <ul id="experienciasProfissionais"></ul>
-        <p>Formação Acadêmica:</p>
-        <ul id="formacaoAcademica"></ul>
+        <table>
+          <thead>
+            <tr>
+              <th>Experiências Profissionais</th>
+              <th>Formação Acadêmica</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-formacao">
+            
+          </tbody>
+        </table>
       </div>
     </div>
     <script>
+      function montarHTML(dados) {
+        return '<tr>' +
+            '<td>' + dados.experienciasProfissionais + '</td>' +
+            '<td>' + dados.formacaoAcademica + '</td>' +
+            '</tr>';
+      }
       function carregarDados() {
         const xhr = new XMLHttpRequest();
 
@@ -47,12 +60,11 @@
               );
             }
 
-            const elUl2 = document.getElementById("experienciasProfissionais");
+            const elUl2 = document.getElementById("tabela-formacao");
             elUl2.innerHTML = "";
-            for (let i = 0; i < dados.experienciasProfissionais.length; i++) {
+            for (let i = 0; i < experienciasProfissionais.length; i++) {
               elUl2.insertAdjacentHTML(
-                "beforeend",
-                "<li>" + dados.experienciasProfissionais[i] + "</li>"
+                montarHTML(dadosArr[i])
               );
             }
 
