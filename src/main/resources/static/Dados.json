@@ -5,30 +5,22 @@
     "telefone": "(11) 99999-1234",
     "dataNascimento": "2000-08-14",
     "experienciasProfissionais": [
-        {
-            "empresa": "Colégio Magno",
-            "cargo": "Jovem Aprendiz",
-            "dataInicio": "2019-05-01",
-            "dataTermino": "2021-05-01"
-        },
-        {
-            "empresa": "Claro Brasil",
-            "cargo": "Estagiario",
-            "dataInicio": "2022-04-20",
-            "dataTermino": "2023-04-11"
-        }
+        "Empresa: Colégio Magno",
+        "Cargo: Jovem Aprendiz",
+        "DataInicio: 2019-05-01",
+        "DataTermino: 2021-05-01",
+        "Empresa: Claro Brasil",
+        "Cargo: Estagiario",
+        "DataInicio: 2022-04-20",
+        "DataTermino: 2023-04-11"
     ],
     "formacaoAcademica": [
-        {
-            "curso": "Programação em Java",
-            "instituicao": "SENAI",
-            "dataConclusao": "2018-10-20"
-        },
-        {
-            "curso": "Inglês",
-            "instituicao": "Instituto Nossa Senhora de Fátima",
-            "dataConclusao": "2020-10-20"
-        }
+        "Curso: Programação em Java",
+        "Instituição: SENAI",
+        "Data de Conclusão: 2018-10-20",
+        "Curso: Inglês",
+        "Instituição: Instituto Nossa Senhora de Fátima",
+        "Data de Conclusão: 2020-10-20"
     ],
     "conhecimentos": [
         "Mysql",
