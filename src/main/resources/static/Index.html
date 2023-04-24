@@ -52,6 +52,13 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-12 text-center mt-5">
+        <button id="btnCarregar" class="btn btn-primary btn-lg">
+          Carregar dados
+        </button>
+      </div>
+    </div>
   </div>
 </body>
     <script>
@@ -102,9 +109,9 @@
 
         xhr.send();
       }
-      document.addEventListener("DOMContentLoaded", function() {
-    carregarDados();
-  });
+      document.getElementById("btnCarregar").onclick = function (evt) {
+        carregarDados();
+      };
     </script>
   </body>
 </html>
